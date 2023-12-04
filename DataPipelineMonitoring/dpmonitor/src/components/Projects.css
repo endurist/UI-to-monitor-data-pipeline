@@ -1,0 +1,83 @@
+.projects-page {
+    margin: 20px 20px 0;
+}
+
+.projects-header {
+    display: flex;
+    max-width: 95vw;
+    margin: 0 auto;
+}
+
+.alert-and-button-container {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.create-project-alert {
+    margin: 0 15px 0 0 !important;
+    height: 70% !important;
+    display: flex;
+    align-items: center;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.no-projects-container {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 21rem));
+    column-gap: 15px;
+}
+
+.project-card {
+    width: 20rem;
+    margin: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.25) !important;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-text {
+    margin-bottom: 0.5rem;
+}
+
+.card-buttons-container {
+    display: flex;
+    margin-top: auto;
+}
+
+.open-project-button {
+    flex-grow: 1;
+    margin-right: 15px;
+}
+
+.actions-button {
+    margin-left: auto;
+}
+
+.share-body {
+    display: flex;
+}
+
+.share-id-form {
+    width: 65%;
+}
+
+.role-form {
+    margin-left: auto;
+}
+
+.access-list {
+    padding-top: 0 !important;
+}

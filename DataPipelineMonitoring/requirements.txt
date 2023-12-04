@@ -1,0 +1,17 @@
+django
+
+mongoengine
+
+django-cors-headers
+
+python-crontab
+
+pymongo
+
+pytest
+
+coverage
+
+requests
+
+pandas

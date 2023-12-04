@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="script-list list-group"
+    >
+      <a
+        class="list-group-item list-group-item-action active"
+        data-rb-event-key="#link0"
+        href="#link0"
+      >
+        script1
+      </a>
+      <a
+        class="list-group-item list-group-item-action"
+        data-rb-event-key="#link1"
+        href="#link1"
+      >
+        script2
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

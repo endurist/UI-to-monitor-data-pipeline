@@ -1,0 +1,16 @@
+.accordion-list {
+    width: 350px;
+}
+
+.accordion-card-body {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    cursor: pointer;
+}
+
+.last-accordion-card-body {
+    cursor: pointer;
+}
+
+.toggle {
+    text-decoration: none !important;
+}

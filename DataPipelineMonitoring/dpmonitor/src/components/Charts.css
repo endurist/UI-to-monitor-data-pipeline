@@ -1,0 +1,27 @@
+.chart-view-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.pivot-table {
+    margin-bottom: 20px;
+}
+
+.no-projects-container {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+.chart-accordion-list {
+    max-height: 65vh;
+    overflow-y: scroll;
+}
+
+.chart-accordion-list::-webkit-scrollbar {
+    display: none;
+}

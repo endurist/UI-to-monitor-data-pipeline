@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should take a snapshot 1`] = `
+<DocumentFragment>
+  <div>
+    <header>
+      <div
+        class="header-container"
+      >
+        <a
+          href="//www.ncsu.edu/"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="NC State University"
+            class="logo"
+            height="50"
+            src="https://ncsu-las.org/wp-content/themes/awi/img/logo-ncsu.png"
+            srcset="https://ncsu-las.org/wp-content/themes/awi/img/logo-ncsu.png 1x, https://ncsu-las.org/wp-content/themes/awi/img/logo-ncsu@2x.png 2x"
+            target="_blank"
+            title="NC State University"
+            width="105"
+          />
+        </a>
+        <a
+          href="https://ncsu-las.org"
+          rel="noreferrer"
+          target="_blank"
+        >
+          <img
+            alt="Laboratory for Analytic Sciences"
+            class="logo"
+            height="50"
+            src="https://ncsu-las.org/wp-content/themes/awi/img/logo-las.png"
+            srcset="https://ncsu-las.org/wp-content/themes/awi/img/logo-las.png 1x, https://ncsu-las.org/wp-content/themes/awi/img/logo-las@2x.png 2x"
+            target="_blank"
+            title="Laboratory for Analytic Sciences"
+            width="215"
+          />
+        </a>
+      </div>
+    </header>
+    <div
+      class="Login"
+    >
+      <form
+        class=""
+      >
+        <div
+          class="form-group"
+          placeholder="Enter unity id"
+        >
+          <label
+            class="form-label"
+            for="unityid"
+          >
+            UnityID
+          </label>
+          <input
+            class="form-control"
+            id="unityid"
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <div
+            class="custom-control custom-checkbox"
+          >
+            <input
+              class="custom-control-input"
+              id="customCheck1"
+              type="checkbox"
+            />
+            <label
+              class="custom-control-label"
+              for="customCheck1"
+            >
+              Remember me
+            </label>
+          </div>
+        </div>
+        <button
+          class="btn btn-primary btn-block btn-lg"
+          type="submit"
+        >
+          Login
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

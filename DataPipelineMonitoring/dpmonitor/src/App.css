@@ -1,0 +1,85 @@
+.header-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    /* max-width: 95vw; */
+    min-height: 60px;
+}
+
+.brand-container {
+    margin-left: 18px;
+}
+
+header a:first-child .logo {
+    margin-right: 20px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    height: 100%;
+    min-width: 360px;
+}
+
+.navbar-nav {
+    flex-direction: row !important;
+}
+
+.menu-item-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    display: flex !important;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    width: 70px;
+    color: black !important;
+    min-height: 50px;
+    text-decoration: none !important;
+}
+
+.menu-item:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #c00;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu-item:hover:before {
+    visibility: visible;
+    width: 100%;
+}
+
+.username {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    width: 70px;
+    min-height: 50px;
+    color: black;
+    font-weight: 600;
+}
+
+.title {
+    text-align: center;
+    margin: 25px;
+}
